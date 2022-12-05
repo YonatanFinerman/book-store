@@ -1,0 +1,64 @@
+body {
+    /* background-color: cornflowerblue; */
+   
+    overflow-x: hidden;
+    padding: 0 40px;
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.modal1 {
+    background-color: #111;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 150%;
+    height: 80vh;
+    min-width: 300px;
+    text-align: center;
+}
+.modal1.open {
+    left: 50%;
+    transition: left .5s;
+}
+.modal1 h3{
+    color:pink;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+.modal1 h4 span{
+    color:pink;
+}
+.modal1 > p {
+    text-align: left;
+}
+.add-rating{
+    display: block;
+    margin: 10px auto;
+}
+
+.close-modal1{
+    margin: 100px 40%;
+}
+input{
+    text-align: center;
+    height: 19px;
+}
+.rating{
+    display: inline;
+    background: whitesmoke;
+    color: #111;
+    font-size: 20px;
+    /* height: 19px;
+    width: 100px; */
+    
+}
